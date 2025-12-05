@@ -1,0 +1,29 @@
+h1{
+    animation: cambiarColor 3s infinite;
+    text-align: center;
+    padding: 20px;
+    color: brown;
+}
+@keyframes cambiarColor {
+    0% {background-color: blue;}
+    50%{background-color: lightblue;}
+    100%{background-color: white;}
+}
+    
+
+img:hover {
+    filter: grayscale(100%); 
+    
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+button:active {
+    font-size: 50px;
+    color: aquamarine;
+    background-color: brown;
+    
+}

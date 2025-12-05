@@ -1,0 +1,15 @@
+#flex {
+
+display: flex;
+
+flex-wrap: wrap;
+list-style-type: none;
+gap: 200px  ;
+
+div{
+    min-width: 300px;
+    height: 200px;
+    background-color: skyblue;
+}
+    
+}
